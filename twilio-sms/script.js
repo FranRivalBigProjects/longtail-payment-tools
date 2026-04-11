@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){res.innerText='Messages: '+log.value.split('\n').length;}

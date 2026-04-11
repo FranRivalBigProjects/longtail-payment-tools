@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){try{let o=JSON.parse(payload.value);res.innerText='Keys: '+Object.keys(o).length;}catch(e){res.innerText='Invalid JSON';}}

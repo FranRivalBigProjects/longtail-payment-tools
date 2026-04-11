@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){res.innerText=sig.value.length>10?'Valid format':'Invalid';}

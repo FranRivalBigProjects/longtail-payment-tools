@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Payment & Webhook Tools – Stripe, PayPal, Twilio & API Debugging</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google verification -->
+  <meta name="google-site-verification" content="QMAlZVgw_jsHfCVlnfvifbkMZy5CKnLXh7m65vo1kLM" />
+
+  <!-- SEO -->
+  <meta name="description" content="Payment tools for Stripe, PayPal, and Twilio. Debug webhooks, calculate fees, analyze payment flows, and validate signatures.">
+  <meta name="keywords" content="stripe webhook signature verification, paypal fees calculator, twilio sms api example, payment flow diagram, webhook payload tester">
+
+  <!-- AdSense -->
+  <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXXXXXXXX">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Payment Tools – Stripe, PayPal & Webhook Debugging">
+  <meta property="og:description" content="Analyze payment flows, debug webhooks, and optimize integrations.">
+  <meta property="og:type" content="website">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #020617;
+      color: #e2e8f0;
+      margin: 0;
+      padding: 40px;
+    }
+    h1 {
+      color: #22c55e;
+    }
+    p {
+      max-width: 1000px;
+      line-height: 1.6;
+    }
+    .tools {
+      columns: 2;
+      margin-top: 20px;
+    }
+    .tool {
+      background: #1e293b;
+      padding: 12px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      break-inside: avoid;
+      transition: 0.2s;
+    }
+    .tool:hover {
+      background: #334155;
+    }
+    a {
+      color: #22c55e;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Payment & Webhook Tools</h1>
+
+  <p>
+    A collection of tools for integrating and debugging payment systems,
+    including Stripe, PayPal, and Twilio APIs.
+  </p>
+
+  <p>
+    These tools help developers validate webhooks, calculate fees,
+    analyze payment flows, and troubleshoot API integrations.
+  </p>
+
+  <div class="tools">
+
+    <div class="tool"><a href="./payment-flow/">Payment Flow Visualizer</a></div>
+    <div class="tool"><a href="./paypal-fees/">PayPal Fees Calculator</a></div>
+    <div class="tool"><a href="./paypal-flow/">PayPal Flow Analyzer</a></div>
+    <div class="tool"><a href="./stripe-signature/">Stripe Signature Validator</a></div>
+    <div class="tool"><a href="./stripe-subscription/">Stripe Subscription Analyzer</a></div>
+    <div class="tool"><a href="./stripe-webhook/">Stripe Webhook Debugger</a></div>
+    <div class="tool"><a href="./twilio-call/">Twilio Call Flow Tool</a></div>
+    <div class="tool"><a href="./twilio-sms/">Twilio SMS Analyzer</a></div>
+    <div class="tool"><a href="./twiml/">TwiML Generator</a></div>
+    <div class="tool"><a href="./webhook-payload/">Webhook Payload Tester</a></div>
+
+  </div>
+
+  <!-- SEO LONG TAIL -->
+  <h2>Common Payment & Webhook Queries</h2>
+
+  <ul>
+    <li>stripe webhook signature verification example</li>
+    <li>paypal fees calculator international transaction</li>
+    <li>how to debug webhook payload json errors</li>
+    <li>stripe subscription lifecycle explained example</li>
+    <li>twilio sms api example sending messages</li>
+    <li>twilio call flow twiml example explained</li>
+    <li>payment flow diagram ecommerce checkout process</li>
+  </ul>
+
+  <p>
+    These tools are ideal for backend developers, fintech teams,
+    and startups integrating payment systems.
+  </p>
+
+  <!-- snippet -->
+  <pre>
+const sig = req.headers['stripe-signature'];
+
+stripe.webhooks.constructEvent(
+  payload,
+  sig,
+  endpointSecret
+);
+  </pre>
+
+</body>
+</html>
